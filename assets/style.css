@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap'); /*Fonte New Amsterdam Static*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+body, html {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    gap: 2em;
+    margin-top: 3em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.404);
+    height: 560px;
+    width: 450px;
+    margin: auto;
+    margin-top: 3em;
+}
+
+main > h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+
+main > p, #res, #status {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+
+#imc-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+#number1, #number2 {
+    padding: 1em;
+    cursor: pointer;
+ 
+}
+
+#number1:hover, #number2:hover {
+    background-color: aliceblue;
+    transition: all 1s;
+}
+
+button {
+    padding: 1em;
+    border: none;
+
+}
+
+button:hover {
+    border-radius: 1em;
+    transition: all 1s;
+    background-color: #b4b4b9d0;
+}
