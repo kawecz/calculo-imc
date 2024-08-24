@@ -35,8 +35,6 @@
             status.innerHTML += `Obesidade grau III`
             status.style.color = 'red'
         }
-            altura.value = ''
-            peso.value = ''
             altura.focus()
           
     }
